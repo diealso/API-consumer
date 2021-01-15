@@ -1,4 +1,4 @@
-# Diego says:
+# INSTRUCTIONS:
 
 Hello! The instruccions to run the project are simple:
 1 - Download the code.
