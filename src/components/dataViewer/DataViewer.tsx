@@ -46,7 +46,7 @@ const DataViewer = () => {
                                         <Button onClick={removeFromSelected} variant="danger">{query}</Button>
                                     </td>
                                 </tr>
-                            )}) : (<tr><td><p>There is no data selected</p></td></tr>)}
+                            )}) : (<tr><td><p>There is no data selecte</p></td></tr>)}
                         </tbody>
                     </table>
                 </Col>
