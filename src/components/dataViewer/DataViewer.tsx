@@ -32,7 +32,7 @@ const DataViewer = () => {
                                 <li key={id}>
                                     <Button onClick={addToSelected} variant="primary">{query.show.name ? query.show.name : "" }</Button>
                                 </li>
-                            )}) : ""}
+                            )}) : (<li><p>There is no query</p></li>)}
                     </ul>
                 </Col>
                 <Col>
@@ -46,7 +46,7 @@ const DataViewer = () => {
                                         <Button onClick={removeFromSelected} variant="danger">{query}</Button>
                                     </td>
                                 </tr>
-                            )}) : ""}
+                            )}) : (<tr><td><p>There is no data selected</p></td></tr>)}
                         </tbody>
                     </table>
                 </Col>
